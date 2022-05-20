@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import  "../assets/js/menuJS.js"; //just import the js file and it runs automatically
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'robuxapp';
+
+  title = 'EarnBux';
 }
+
+

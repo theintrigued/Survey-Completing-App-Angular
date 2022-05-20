@@ -69,11 +69,11 @@ p {
 }
 .header-area {
   position: relative;
-  height: 15vh;
+  height: 100vh;
   background: #5bc0de;
   background-attachment: fixed;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repear;
   background-size: cover;
 }
 .banner {
@@ -84,11 +84,6 @@ p {
   color: #fff;
   text-align: center;
   z-index: 1;
-  background-color: #5bc0de;
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .banner h1 {
   font-weight: 800;
