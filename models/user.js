@@ -1,8 +1,9 @@
 let mongoose = require('mongoose')
 
 let users = new mongoose.Schema({
-    name:String,
-    email: String
+    
+    username:{type: String, unique: true},
+    robuxcount: Number
 
 })
 
